@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 #import os
-#rom dotenv import load_dotenv
+#from dotenv import load_dotenv
 from config import settings
 
 app = FastAPI()
